@@ -1,0 +1,102 @@
+/*stylesheet3.css*/
+
+/* areas to focus on 
+font family and font colors 
+color palette 
+nav bar
+sidebar
+footer 
+article
+*/
+
+
+
+
+
+body { font-family: sans-serif; color: white;   }
+/* Change my background, and set global font family*/
+
+ 
+.content-wrapper { background-color: green; Cente
+
+
+ }
+
+
+
+ header h1 { 
+/* Make bigger and color, Change our font family to a sans serif */
+   height: 6rem;
+   color: rgb(103,61,137);
+   font-size: 2rem; text-align: center; line-height: 400%;
+   }
+
+
+
+
+  .top-nav { 
+ /* Change background color, remove bullets, border on each individual nav element */
+ /* float the links */
+ /* center content within on the links, because they are not block level elements */
+
+background-color: purple; width: 100%; float: left; 
+
+
+}
+
+.links {  list-style-type: none; 
+	float: left; 
+	text-decoration: none; 
+	color: white; 
+	padding: 0rem 4rem 0rem 4rem; 
+	border: 1px solid black; 
+	height: 2rem;
+    line-height: 200%;
+
+} 
+
+
+
+
+
+
+
+
+
+ aside {  background-color: rgb(179,136,232); float:left; width: 18rem ; height: 67rem;
+ 
+
+    }
+/* background color,  clear the float before floating it again, */
+  
+    aside ul { margin-left: 7rem; margin-top: 10rem;}
+
+    aside ul li{ padding: 0.75rem 0rem; }
+
+    aside ul li a { clear: both; color: white; text-decoration: none; padding: 0rem;
+
+
+    /* clear both foats again*/
+    } 
+
+
+
+ figure {  background-color: rgb(230, 230, 230); height: 72.2rem; margin: auto; text-align: center;}
+ 
+
+
+/* figure, we want to center that using margin: auto*/;
+ 
+
+figure img { margin-left: 15rem; margin-top: 15rem }
+
+
+ footer{ float: right; }
+
+/* .imgs{ float-left }*/
+
+
+ 	/* Centered on the page*/
+
+
+ 
