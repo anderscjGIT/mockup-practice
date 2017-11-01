@@ -63,30 +63,40 @@ background-color: purple; width: 100%; float: left;
 
 
 
- aside {  background-color: rgb(179,136,232); float:left; width: 18rem ; height: 70rem;
+ aside {  background-color: rgb(179,136,232); float:left; width: 18rem ; height: 67rem;
  
 
     }
 /* background color,  clear the float before floating it again, */
+  
+    aside ul { margin-left: 7rem; margin-top: 10rem;}
+
+    aside ul li{ padding: 0.75rem 0rem; }
+
+    aside ul li a { clear: both; color: white; text-decoration: none; padding: 0rem;
 
 
-
-    aside ul { clear: left; 
     /* clear both foats again*/
     } 
 
 
 
- figure {  background-color: rgb(230, 230, 230); height: 72.2rem;
+ figure {  background-color: rgb(230, 230, 230); height: 72.2rem; margin: auto; text-align: center;}
+ 
+
 
 /* figure, we want to center that using margin: auto*/;
- }
+ 
 
-figure img { margin-left: 15rem; margin-top: 10rem }
+figure img { margin-left: 15rem; margin-top: 15rem }
 
 
- footer {  ;  margin: auto; 
+ footer{ float: right; }
+
+/* .imgs{ float-left }*/
+
+
  	/* Centered on the page*/
 
 
- }
+ 
