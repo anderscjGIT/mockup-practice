@@ -1,51 +1,81 @@
 
 
-body {    }
+/* areas to focus on 
+font family and font colors 
+color palette 
+nav bar
+sidebar
+footer 
+article
+*/
 
 
-.content-wrapper { 
+
+
+
+body { font-family: sans-serif; color: white;   }
+/* Change my background, and set global font family*/
+
+ 
+.content-wrapper { background-color: white; Cente
 
 
  }
 
 
+
  header h1 { 
-
-
-
-  }
-
-
-
-
-  .main-nav { 
-
-
-
-
+/* Make bigger and color, Change our font family to a sans serif */
+   height: 5rem;
+   color: rgb(103,61,137);
+   font-size: 2rem; text-align: center; line-height: 300%;
    }
 
 
 
- aside {  }
+
+  .top-nav { 
+ /* Change background color, remove bullets, border on each individual nav element */
+ /* float the links */
+ /* center content within on the links, because they are not block level elements */
+
+background-color: rgb(103,61,137); width: 100%; float: left; 
+
+
+}
+
+.links {  list-style-type: none; float: left; text-decoration: none; color: white; padding: 0rem 4.48rem 0rem 4.48rem; border: 1px solid black; height: 1rem;} 
+
+
+
+
+
+
+
+ aside { clear left;  float: left; background-color: rgb(179,136,232);
+ 
+
+    }
+/* background color,  clear the float before floating it again, */
+
+
 
     aside ul { 
-
+    /* clear both foats again*/
     } 
 
 
- article { 
-
-  }
 
  figure {
 
-
+/* figure, we want to center that using margin: auto*/;
  }
 
 
- footer { 
 
+
+ footer {  ;  margin: auto; 
+ 	/* Centered on the page*/
 
 
  }
