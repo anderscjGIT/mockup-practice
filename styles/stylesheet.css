@@ -26,9 +26,9 @@ body { font-family: sans-serif; color: white;   }
 
  header h1 { 
 /* Make bigger and color, Change our font family to a sans serif */
-   height: 5rem;
+   height: 6rem;
    color: rgb(103,61,137);
-   font-size: 2rem; text-align: center; line-height: 300%;
+   font-size: 2rem; text-align: center; line-height: 400%;
    }
 
 
@@ -39,12 +39,21 @@ body { font-family: sans-serif; color: white;   }
  /* float the links */
  /* center content within on the links, because they are not block level elements */
 
-background-color: rgb(103,61,137); width: 100%; float: left; 
+background-color: purple; width: 100%; float: left; 
 
 
 }
 
-.links {  list-style-type: none; float: left; text-decoration: none; color: white; padding: 0rem 4.48rem 0rem 4.48rem; border: 1px solid black; height: 1rem;} 
+.links {  list-style-type: none; 
+	float: left; 
+	text-decoration: none; 
+	color: white; 
+	padding: 0rem 4rem 0rem 4rem; 
+	border: 1px solid black; 
+	height: 2rem;
+    line-height: 200%;
+
+} 
 
 
 
@@ -52,7 +61,9 @@ background-color: rgb(103,61,137); width: 100%; float: left;
 
 
 
- aside { clear left;  float: left; background-color: rgb(179,136,232);
+
+
+ aside {  background-color: rgb(179,136,232); float:left; width: 18rem ; height: 70rem;
  
 
     }
@@ -60,18 +71,18 @@ background-color: rgb(103,61,137); width: 100%; float: left;
 
 
 
-    aside ul { 
+    aside ul { clear: left; 
     /* clear both foats again*/
     } 
 
 
 
- figure {
+ figure {  background-color: rgb(230, 230, 230); height: 72.2rem;
 
 /* figure, we want to center that using margin: auto*/;
  }
 
-
+figure img { margin-left: 15rem; margin-top: 10rem }
 
 
  footer {  ;  margin: auto; 
