@@ -17,7 +17,7 @@ body { font-family: sans-serif; color: white;   }
 /* Change my background, and set global font family*/
 
  
-.content-wrapper { background-color: green; Cente
+.content-wrapper { background-color: red; 
 
 
  }
@@ -27,7 +27,7 @@ body { font-family: sans-serif; color: white;   }
  header h1 { 
 /* Make bigger and color, Change our font family to a sans serif */
    height: 6rem;
-   color: rgb(103,61,137);
+   color: black;
    font-size: 2rem; text-align: center; line-height: 400%;
    }
 
@@ -63,7 +63,7 @@ background-color: purple; width: 100%; float: left;
 
 
 
- aside {  background-color: rgb(179,136,232); float:left; width: 18rem ; height: 67rem;
+ aside {  background-color: green; float:left; width: 18rem ; height: 67rem;
  
 
     }
@@ -81,14 +81,14 @@ background-color: purple; width: 100%; float: left;
 
 
 
- figure {  background-color: rgb(230, 230, 230); height: 72.2rem; margin: auto; text-align: center;}
+ figure {  background-color: rgb(230, 230, 230); height: 72.2rem; margin: auto; text-align: center; color: black;}
  
 
 
 /* figure, we want to center that using margin: auto*/;
  
 
-figure img { margin-left: 15rem; margin-top: 15rem }
+figure img { margin-left: 15rem; margin-top: 15rem}
 
 
  footer{ float: right; }
